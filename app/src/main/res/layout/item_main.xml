@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="4dp"
+    app:contentPadding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="[Перевод] Как международная хакерская сеть заработала $100 млн на краже пресс-релизов" />
+
+        <TextView
+            android:id="@+id/pub_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:paddingTop="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            tools:text="Sat, 25 Aug 2018 15:58:28 GMT" />
+
+        <TextView
+            android:id="@+id/creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pub_date"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            tools:text="@tools:sample/full_names" />
+
+        <TextView
+            android:id="@+id/categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/creator"
+            android:textColor="@color/textColor"
+            android:textSize="12sp"
+            tools:text="Разработка под Android | Java" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/categories"
+            android:paddingTop="10dp"
+            android:textColor="@color/textColor"
+            tools:text="@tools:sample/lorem/random" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
