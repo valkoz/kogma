@@ -26,7 +26,7 @@ android {
 }
 
 ext {
-    supportVersion = "28.0.0-rc02"
+    supportVersion = "28.0.0"
     runnerVersion = "1.0.2"
     espressoVersion = "3.0.2"
     simpleXmlVersion = "2.7.1"
